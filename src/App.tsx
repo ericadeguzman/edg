@@ -8,7 +8,7 @@ function App() {
     <> 
     <MyNav />
      <h1>hello, welcome.</h1>
-     <p>you have reached erica's portfolio site. it not done yet... she's working on it. </p>
+     <p>you have reached erica's portfolio site. it's not done yet... she's working on it. </p>
     </>
 
 
