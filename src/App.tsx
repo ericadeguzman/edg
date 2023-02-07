@@ -7,7 +7,7 @@ function App() {
   return (
     <> 
     <MyNav />
-     <h1>hello, welcome.</h1>
+     <h1>hello, welcome!</h1>
      <p>you have reached erica's portfolio site. it's not done yet... she's working on it. </p>
     </>
 
