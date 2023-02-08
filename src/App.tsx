@@ -11,7 +11,8 @@ import ErrorPage from './Error';
 import HomePage from './pages/Home';
 import Projects from './pages/Projects'
 import Photography from './pages/Photography';
-
+//styles
+import './css/app.css';
 
 const router = createBrowserRouter([
   {
