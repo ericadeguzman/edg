@@ -13,6 +13,7 @@ function RootLayout() {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
+          
         }}
       >
         <Nav />
