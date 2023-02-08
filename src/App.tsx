@@ -9,7 +9,7 @@ import {
 import RootLayout from './pages/Root';
 import ErrorPage from './Error';
 import HomePage from './pages/Home';
-import Contact from './pages/Contact'
+import Projects from './pages/Projects'
 import Photography from './pages/Photography';
 
 
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       { path: '/', element: <HomePage />},
-      { path: "/contact", element: <Contact /> },
+      { path: "/projects", element: <Projects /> },
       {path: "/photography", element: <Photography /> }
     ], 
   },

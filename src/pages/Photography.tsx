@@ -7,7 +7,7 @@ function Photography() {
 
   return (
     <div>
-      <h1>photo.</h1>
+      <h1>photos.</h1>
     </div>
   )
 }

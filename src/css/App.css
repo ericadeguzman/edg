@@ -1,4 +1,25 @@
 /*variables */
+/*HOME - styles */
+.homeContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; }
+
+.messageBox {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px; }
+
+/*HOME - desktop specific styles */
+@media screen and (min-width: 480px) {
+  .homeContainer {
+    flex-direction: row;
+    max-width: 900px; }
+  .homeIntro {
+    margin-right: 60px; }
+  .messageBox {
+    margin-top: 50px; } }
+
 /* reset */
 body {
   margin: 0px; }
