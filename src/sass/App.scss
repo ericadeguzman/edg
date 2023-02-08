@@ -1,0 +1,33 @@
+/*variables */
+
+$link-color: #646cff;
+$font-family: 'Inconsolata', monospace;
+
+
+
+/* reset */
+body {
+    margin: 0px;
+  }
+  
+  /* Typography */
+  :root {
+    font-family:$font-family ;
+  }
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+  
+  a {
+    font-weight: 500;
+    color: $link-color ;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: $link-color;
+  }
+  
+  
+  
+  
