@@ -2,14 +2,14 @@ import React from 'react';
 import MyNav from '../Nav';
 
 
-function Photography() {
+function HomePage() {
 
 
   return (
     <div>
-      <h1>photo.</h1>
+      <h1>hey.</h1>
     </div>
   )
 }
 
-export default Photography
+export default HomePage

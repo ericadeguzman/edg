@@ -1,0 +1,58 @@
+
+
+/* Colors */
+$color-black: #000;
+
+
+.navigation {
+    padding: 0;
+    margin: 0;
+}
+.navigation li {
+    list-style: none;
+  }
+  .navigation a {
+    color: $color-black;
+    font-weight: normal;
+    display:block;
+  }
+  .navigation button {
+    border-radius: 0;
+    border: none;
+    cursor: pointer;
+    
+    font-family: 'Inconsolata', monospace;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    
+  }
+
+  @media screen and (max-width: 480px) { 
+    .navigation button {
+        width: 100vw;
+        padding: 10px;
+    }
+  }
+/*desktop css */
+  @media screen and (min-width: 480px) { 
+    /* Navigation */
+.navigation  {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+  }
+.navigation button {
+    padding: 100px;
+}
+  .navigation button:hover {
+    transform: translate(3em,0);
+    -webkit-transform: translate(3em,0);
+    -moz-transform: translate(3em,0);
+    -o-transform: translate(3em,0);
+    -ms-transform: translate(3em,0);
+  }
+  }
+  
