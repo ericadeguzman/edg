@@ -10,6 +10,10 @@
   flex-direction: column;
   min-width: 200px; }
 
+.messageBox textarea:focus,
+.messageBox input:focus {
+  background-color: rgba(129, 101, 71, 0.2); }
+
 /*HOME - desktop specific styles */
 @media screen and (min-width: 480px) {
   .homeContainer {

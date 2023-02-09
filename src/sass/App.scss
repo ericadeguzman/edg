@@ -1,9 +1,7 @@
 /*variables */
-
+$primary-color: rgba(129, 101, 71, 0.2);
 $link-color: #646cff;
 $font-family: "Inconsolata", monospace;
-
-
 
 /*HOME - styles */
 .homeContainer {
@@ -14,15 +12,20 @@ $font-family: "Inconsolata", monospace;
 .messageBox {
   display: flex;
   flex-direction: column;
-  min-width: 200px; 
-  
+  min-width: 200px;
+}
+
+.messageBox textarea:focus,
+.messageBox input:focus
+{
+  background-color: $primary-color;
 }
 
 /*HOME - desktop specific styles */
 @media screen and (min-width: 480px) {
   .homeContainer {
-  flex-direction: row;
-  max-width: 900px;
+    flex-direction: row;
+    max-width: 900px;
   }
   .homeIntro {
     margin-right: 60px;
@@ -31,7 +34,6 @@ $font-family: "Inconsolata", monospace;
     margin-top: 50px;
   }
 }
-
 
 /* reset */
 body {

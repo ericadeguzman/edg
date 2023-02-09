@@ -10,8 +10,8 @@ function HomePage() {
       <div className="homeIntro">
         <h1>hey.</h1>
         <p>
-          My name is Erica. I'm a web designer from southern California. I
-          design, code, photograph and drink lots of coffee.{" "}
+          This is Erica, a web designer from southern California. I
+          design, code, take photos, travel, and drink lots of coffee.{" "}
         </p>
       </div>
       <form>
@@ -22,7 +22,7 @@ function HomePage() {
           <textarea
             id="message"
             name="message"
-            placeholder="Write something.."
+            placeholder="Hello there. how are you doing today? "
             style={{ height: "100px", margin: "10px 0px" }}
           ></textarea>
           <label htmlFor="fname">from: </label>
@@ -31,8 +31,10 @@ function HomePage() {
             id="fname"
             name="firstname"
             placeholder="Your name.."
-            style={{ marginTop: "10px" }}
+            style={{ marginTop: 10 }}
           />
+          <button style={{
+            marginTop: 5,}}>Submitt</button>
         </div>
       </form>
     </div>

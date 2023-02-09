@@ -26,16 +26,16 @@ $color-black: #000;
 }
 
 /*MOBILE specific styles */
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 752px) {
   .navigation button {
     width: 100vw;
     padding: 10px;
   }
 }
 /*DESKTOP specific styles */
-@media screen and (min-width: 580px) {
+@media screen and (min-width: 753px) {
   .navigation {
-    margin-top: 40px;
+    margin-top: 1%;
     display: flex;
     flex-direction: row;
     padding-left: 0;

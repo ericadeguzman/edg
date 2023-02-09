@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "compile:appsass": "node-sass src/sass/app.scss -o src/css/ -w",
+    "compile:navsass": "node-sass src/sass/nav.scss -o src/css/ -w"
   },
   "dependencies": {
     "@types/react-router-dom": "^5.3.3",
