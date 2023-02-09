@@ -11,7 +11,7 @@ function HomePage() {
           design, code, take photos, travel, and drink lots of coffee.{" "}
         </p>
         ---
-        <p>Somethings I can do:</p>
+        <p>Some things I know:</p>
         <ul className="horizontalList">
           <li>design</li>
           <li>html/css</li>
