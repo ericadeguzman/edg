@@ -14,8 +14,23 @@
 .messageBox input:focus {
   background-color: rgba(129, 101, 71, 0.2); }
 
-/*HOME - desktop specific styles */
-@media screen and (min-width: 480px) {
+.horizontalList li {
+  list-style: circle;
+  margin-right: 50px; }
+
+.footer {
+  padding-bottom: 10px; }
+
+/*MOBILE specific styles */
+@media screen and (max-width: 752px) {
+  .footer {
+    margin-top: 100px; } }
+
+/*DESKTOP specific styles */
+@media screen and (min-width: 753px) {
+  .footer {
+    position: absolute;
+    bottom: 0; }
   .homeContainer {
     flex-direction: row;
     max-width: 900px; }

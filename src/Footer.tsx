@@ -1,9 +1,10 @@
 import React from "react";
+import "./css/app.css"
 
 function Footer() {
   return (
-    <div style={{position: 'absolute', textAlign: 'center', bottom: '10px',}}>
-      happy little trees &copy;  2023
+    <div className="footer">
+      ericadeguzman &copy;  2023
     </div>
   );
 }

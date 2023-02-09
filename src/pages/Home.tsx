@@ -1,6 +1,3 @@
-import React from "react";
-import MyNav from "../Nav";
-
 
 function HomePage() {
   return (
@@ -13,6 +10,15 @@ function HomePage() {
           This is Erica, a web designer from southern California. I
           design, code, take photos, travel, and drink lots of coffee.{" "}
         </p>
+        ---
+        <p>Somethings I can do:</p>
+        <ul className="horizontalList">
+          <li>design</li>
+          <li>html/css</li>
+          <li>javascript</li>
+          <li>react</li>
+          <li>sass</li>
+        </ul>
       </div>
       <form>
         <div
@@ -22,7 +28,7 @@ function HomePage() {
           <textarea
             id="message"
             name="message"
-            placeholder="Hello there. how are you doing today? "
+            placeholder="Oops. This doesn't actually send messages yet. Email me at erricadg@gmail.com"
             style={{ height: "100px", margin: "10px 0px" }}
           ></textarea>
           <label htmlFor="fname">from: </label>
@@ -30,11 +36,11 @@ function HomePage() {
             type="text"
             id="fname"
             name="firstname"
-            placeholder="Your name.."
+            placeholder="Your email.."
             style={{ marginTop: 10 }}
           />
           <button style={{
-            marginTop: 5,}}>Submitt</button>
+            marginTop: 5,}}>Submit</button>
         </div>
       </form>
     </div>
