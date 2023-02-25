@@ -14,10 +14,10 @@ function HomePage() {
         <p>Some things I know:</p>
         <ul className="horizontalList">
           <li>design</li>
-          <li>html/css</li>
+          <li>html</li>
+          <li>css/sass</li>
           <li>javascript</li>
           <li>react</li>
-          <li>sass</li>
         </ul>
       </div>
       <form>
