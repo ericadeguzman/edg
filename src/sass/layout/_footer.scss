@@ -1,0 +1,11 @@
+/* ==== FOOTER STYLES ==== */
+.footer {
+  padding-bottom: 10px;
+  @include respond(mobile) {
+    margin-top: 100px;
+  }
+  @include respond(not-mobile) {
+    position: absolute;
+    bottom: 0;
+  }
+}

@@ -1,79 +1,13 @@
-/*variables */
-$primary-color: rgba(129, 101, 71, 0.2);
-$link-color: #646cff;
-$font-family: "Inconsolata", monospace;
 
-/*HOME - styles */
-.homeContainer {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
-.messageBox {
-  display: flex;
-  flex-direction: column;
-  min-width: 200px;
-}
-.messageBox textarea:focus,
-.messageBox input:focus
-{
-  background-color: $primary-color;
-}
+@import "base/base";
+@import "abstracts/mixins";
+@import "base/typography";
+@import "layout/nav";
+@import "layout/footer";
+@import "pages/home";
 
-.horizontalList {
-    li {
-      list-style:circle;
-      margin-right: 50px;
-    }
-}
-.footer {
-  padding-bottom: 10px;
-}
-/*MOBILE specific styles */
-@media screen and (max-width: 752px) {
-  .footer {
-    margin-top: 100px;
-  }
-}
 
-/*DESKTOP specific styles */
-@media screen and (min-width: 753px) {
-.footer {
-  position: absolute;
-  bottom: 0;
-}
-  .homeContainer {
-    flex-direction: row;
-    max-width: 900px;
-  }
-  .homeIntro {
-    margin-right: 60px;
-  }
-  .messageBox {
-    margin-top: 50px;
-  }
 
-}
 
-/* reset */
-body {
-  margin: 0px;
-}
 
-/* Typography */
-:root {
-  font-family: $font-family;
-}
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
 
-a {
-  font-weight: 500;
-  color: $link-color;
-  text-decoration: inherit;
-}
-a:hover {
-  color: $link-color;
-}

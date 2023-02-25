@@ -1,9 +1,13 @@
-/* Colors */
-$color-black: #000;
-
+/*==== NAVIGATION SYTLES ==== */
 .navigation {
   padding: 0;
   margin: 0;
+  @include respond(not-mobile) {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+  }
 }
 .navigation li {
   list-style: none;
@@ -23,27 +27,17 @@ $color-black: #000;
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
   -ms-transition: all 1s ease-in-out;
-}
-
-/*MOBILE specific styles */
-@media screen and (max-width: 752px) {
-  .navigation button {
+  @include respond(mobile) {
     width: 100vw;
     padding: 10px;
   }
-}
-/*DESKTOP specific styles */
-@media screen and (min-width: 753px) {
-  .navigation {
-    margin-top: 1%;
-    display: flex;
-    flex-direction: row;
-    padding-left: 0;
-  }
-  .navigation button {
+  @include respond(not-mobile) {
     padding: 100px;
   }
-  .navigation button:hover {
+}
+
+.navigation button:hover {
+  @include respond(not-mobile) {
     transform: translate(3em, 0);
     -webkit-transform: translate(3em, 0);
     -moz-transform: translate(3em, 0);
