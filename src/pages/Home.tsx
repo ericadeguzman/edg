@@ -1,4 +1,4 @@
-import ContactForm from "../components/ContactForm";
+// import ContactForm from "../components/ContactForm";
 
 function HomePage() {
   return (
@@ -22,8 +22,8 @@ function HomePage() {
           <li>react</li>
         </ul>
       </div>
-      <ContactForm />
-      {/* <form>
+      {/* <ContactForm /> */}
+      <form>
         <div
           className="messageBox"
         >
@@ -45,7 +45,7 @@ function HomePage() {
           <button style={{
             marginTop: 5,}}>Submit</button>
         </div>
-      </form> */}
+      </form>
     </div>
   );
 }
