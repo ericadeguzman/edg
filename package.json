@@ -10,6 +10,7 @@
     "compile:sass": "node-sass src/sass/app.scss -o src/css/ -w"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "@types/react-router-dom": "^5.3.3",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",

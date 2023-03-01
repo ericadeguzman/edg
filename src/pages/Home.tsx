@@ -1,3 +1,4 @@
+import ContactForm from "../components/ContactForm";
 
 function HomePage() {
   return (
@@ -7,8 +8,9 @@ function HomePage() {
       <div className="homeIntro">
         <h1>hey.</h1>
         <p>
-          This is Erica, a web designer from southern California. I
-          design, code, take photos, travel, and drink lots of coffee.{" "}
+          This is Erica, a web designer from southern California. I started my journey as a graphic designer. 
+          My art aesthetic is minmalistic, retro, brutalist (intentionally making things look like craigslist), and experimental. 
+          So either really clean or really abstract? Anyway, I got into coding through my first job, <i>ten years ago!</i>, and the rest is history. I love coding as much as I love design. Don't make me pick!
         </p>
         ---
         <p>Some things I know:</p>
@@ -20,7 +22,8 @@ function HomePage() {
           <li>react</li>
         </ul>
       </div>
-      <form>
+      <ContactForm />
+      {/* <form>
         <div
           className="messageBox"
         >
@@ -42,7 +45,7 @@ function HomePage() {
           <button style={{
             marginTop: 5,}}>Submit</button>
         </div>
-      </form>
+      </form> */}
     </div>
   );
 }
