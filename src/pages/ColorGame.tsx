@@ -60,7 +60,7 @@ function ColorGame() {
   };
   return (
     <div>
-      <h1>choose correct color:</h1>
+      <h1>rgb</h1>
       <p>
         In this game you need to click the button that displays the correct
         color hex code.
