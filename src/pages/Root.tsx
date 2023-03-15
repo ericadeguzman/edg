@@ -14,7 +14,6 @@ function RootLayout() {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          justifyContent: "center",
 
         }}
       >

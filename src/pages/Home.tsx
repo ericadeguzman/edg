@@ -8,9 +8,7 @@ function HomePage() {
       <div className="homeIntro">
         <h1>hey.</h1>
         <p>
-          This is Erica, a web designer from southern California. I started my journey as a graphic designer. 
-          My art aesthetic is minmalistic, retro, brutalist (intentionally making things look like craigslist), and experimental. 
-          So either really clean or really abstract? Anyway, I got into coding through my first job, <i>ten years ago!</i>, and the rest is history. I love coding as much as I love design. Don't make me pick!
+          This is Erica, a web designer from southern California. I design. I code. I take photos.
         </p>
         ---
         <p>Some things I know:</p>
@@ -31,7 +29,7 @@ function HomePage() {
           <textarea
             id="message"
             name="message"
-            placeholder="Oops. This doesn't actually send messages yet. Email me at erricadg@gmail.com"
+            placeholder="write something nice."
             style={{ height: "100px", margin: "10px 0px" }}
           ></textarea>
           <label htmlFor="fname">from: </label>
@@ -39,8 +37,7 @@ function HomePage() {
             type="text"
             id="fname"
             name="firstname"
-            placeholder="Your email.."
-            style={{ marginTop: 10 }}
+            placeholder="your email"
           />
           <button style={{
             marginTop: 5,}}>Submit</button>
