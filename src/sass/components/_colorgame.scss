@@ -1,10 +1,13 @@
 /* ==== COLOR GAME STYLES ==== */
+.colorAnswers {
+  font-size: 18px;
+}
 .colorBox {
   width: 200px;
   height: 200px;
-  background-color: powderblue;
   margin-bottom: 10px;
 }
 .colorButton {
   padding: 2px;
+  margin-right: 4px;
 }
