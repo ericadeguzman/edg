@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import ProjectList from "../components/projectList";
 
 function Projects() {
   return (
@@ -8,15 +9,7 @@ function Projects() {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua.
       </p>
-      <hr style={{ maxWidth: "400px", border: "1px dashed #999", margin: 0 }} />
-      <ul>
-        <li>
-          <Link className="link" to="/whathex">What the hex?</Link>
-        </li>
-        <li>
-          <Link className="link" to="/showcolor">Show me the color!</Link>
-        </li>
-      </ul>
+     <ProjectList />
     </div>
   );
 }

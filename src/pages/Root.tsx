@@ -19,7 +19,7 @@ function RootLayout() {
         }}
       >
         <Nav />
-        <div style={{ minWidth: '755px', maxWidth: '755px', margin: '20px 60px', }}>
+        <div className="wrapper" style={{ margin: '20px 60px', }}>
           <Outlet />
         </div>
         

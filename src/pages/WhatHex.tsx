@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import ProjectList from "../components/projectList";
 const getRandomColor = () => {
   const digits = [
     "0",
@@ -79,6 +80,7 @@ function WhatHex() {
       {result === Result.Correct && <p className="rightAnswer">Correctamundo!</p>}
       {result === Result.Wrong && <p className="wrongAnser">Nah dawg!</p>}
       </div>
+      <ProjectList />
     </div>
   );
 }

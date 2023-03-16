@@ -38,3 +38,11 @@
     margin-top: 50px;
   }
 }
+
+
+.wrapper{
+  @include respond(not-mobile){
+    min-width: 753px;
+    max-width: 753px;
+  }
+}

@@ -117,6 +117,11 @@ label {
   .messageBox {
     margin-top: 50px; } }
 
+@media (min-width: 753px) {
+  .wrapper {
+    min-width: 753px;
+    max-width: 753px; } }
+
 /* ==== FORM INPUT STYLE ==== */
 input {
   margin-top: 2px; }

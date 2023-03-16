@@ -1,4 +1,5 @@
 import { SetStateAction, useEffect, useState } from "react";
+import ProjectList from "../components/projectList";
 
 
 function ShowHex() {
@@ -12,27 +13,30 @@ function ShowHex() {
   }
 
   return (
-    <div>
-      <h1>show me the color!</h1>
-      <p>
-        Input any hex code to see the color.
-      </p>
-      <div style={{display: 'flex', flexDirection: 'column'}}>
-      <div className="colorBox" style={{ background: `#${color}`}}></div>
-      <div style={{display: 'flex', flexDirection: 'row', alignItems:"center"}}><label style={{marginRight: '2px',}} htmlFor="hexcode">#</label>
-      <input style={{width: '180px'}}type="text" value={color} id="hexcode" name="hexcode"
-        onChange={handleChange}
-      /></div>
-      </div>
+    <>
+      <div>
+        <h1>show me the color!</h1>
+        <p>
+          Input any hex code to see the color.
+        </p>
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
+          <div className="colorBox" style={{ background: `#${color}` }}></div>
+          <div style={{ display: 'flex', flexDirection: 'row', alignItems: "center" }}><label style={{ marginRight: '2px', }} htmlFor="hexcode">#</label>
+            <input style={{ width: '180px' }} type="text" value={color} id="hexcode" name="hexcode"
+              onChange={handleChange}
+            /></div>
+        </div>
 
-      {/* <button onClick={handleClick}
+        {/* <button onClick={handleClick}
         className="colorButton"
       >
         submit
       </button> */}
-
-
-    </div>
+      </div>
+      <div>
+        <ProjectList />
+      </div>
+    </>
   );
 }
 
