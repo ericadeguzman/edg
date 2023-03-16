@@ -76,8 +76,8 @@ function WhatHex() {
         </button>
       ))}
       <div className="colorAnswers">
-      {result === Result.Correct && <p className="rightAnswer">Correct!</p>}
-      {result === Result.Wrong && <p className="wrongAnser">Wrong Answer!</p>}
+      {result === Result.Correct && <p className="rightAnswer">Correctamundo!</p>}
+      {result === Result.Wrong && <p className="wrongAnser">Nah dawg!</p>}
       </div>
     </div>
   );
