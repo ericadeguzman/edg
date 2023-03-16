@@ -8,7 +8,8 @@ import ErrorPage from "./Error";
 import HomePage from "./pages/Home";
 import Projects from "./pages/Projects";
 import Photography from "./pages/Photography";
-import ColorGame from "./pages/ColorGame";
+import WhatHex from "./pages/WhatHex";
+import ShowColor from "./pages/ShowColor";
 
 const router = createBrowserRouter([
   {
@@ -19,7 +20,8 @@ const router = createBrowserRouter([
       { path: "/", element: <HomePage /> },
       { path: "/projects", element: <Projects /> },
       { path: "/photography", element: <Photography /> },
-      { path: "/colorgame", element: <ColorGame /> },
+      { path: "/whathex", element: <WhatHex /> },
+      { path: "/showcolor", element: <ShowColor /> },
     ],
   },
 ]);

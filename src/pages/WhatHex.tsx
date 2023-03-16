@@ -31,7 +31,7 @@ enum Result {
   Wrong,
 }
 
-function ColorGame() {
+function WhatHex() {
   const [color, setColor] = useState("");
   const [answers, setAnswers] = useState<string[]>([]);
   const [result, setResult] = useState<Result | undefined>(undefined);
@@ -60,7 +60,7 @@ function ColorGame() {
   };
   return (
     <div>
-      <h1>rgb</h1>
+      <h1>what the hex?!</h1>
       <p>
         In this game you need to click the button that displays the correct
         color hex code.
@@ -83,4 +83,4 @@ function ColorGame() {
   );
 }
 
-export default ColorGame;
+export default WhatHex;

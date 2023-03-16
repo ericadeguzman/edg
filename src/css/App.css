@@ -83,14 +83,7 @@ label {
 
 /* ==== FOOTER STYLES ==== */
 .footer {
-  padding-bottom: 10px; }
-  @media (max-width: 752px) {
-    .footer {
-      margin-top: 100px; } }
-  @media (min-width: 753px) {
-    .footer {
-      position: absolute;
-      bottom: 0; } }
+  text-align: center; }
 
 /* ==== HOME STYLES ==== */
 .homeContainer {

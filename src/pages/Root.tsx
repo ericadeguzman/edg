@@ -14,15 +14,17 @@ function RootLayout() {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-
+          minHeight: 'calc(100vh - 40px)',
+          
         }}
       >
         <Nav />
-        <div style={{ margin: '20px 60px', }}>
+        <div style={{ minWidth: '755px', maxWidth: '755px', margin: '20px 60px', }}>
           <Outlet />
         </div>
-        <Footer />
+        
       </div>
+      <Footer />
     </>
   );
 }

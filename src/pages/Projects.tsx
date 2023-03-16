@@ -11,7 +11,10 @@ function Projects() {
       <hr style={{ maxWidth: "400px", border: "1px dashed #999", margin: 0 }} />
       <ul>
         <li>
-          <Link className="link" to="/colorgame">ColorGame</Link>
+          <Link className="link" to="/whathex">What the hex?</Link>
+        </li>
+        <li>
+          <Link className="link" to="/showcolor">Show me the color!</Link>
         </li>
       </ul>
     </div>
