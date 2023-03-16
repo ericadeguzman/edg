@@ -23,7 +23,6 @@ const getRandomColor = () => {
     .fill("")
     .map(() => digits[Math.floor(Math.random() * digits.length)])
     .join("");
-
   return `#${color}`;
 };
 
