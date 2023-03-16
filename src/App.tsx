@@ -10,6 +10,7 @@ import Projects from "./pages/Projects";
 import Photography from "./pages/Photography";
 import WhatHex from "./pages/WhatHex";
 import ShowColor from "./pages/ShowColor";
+import ConvertHex from "./pages/ConvertHex";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
       { path: "/photography", element: <Photography /> },
       { path: "/whathex", element: <WhatHex /> },
       { path: "/showcolor", element: <ShowColor /> },
+      { path: "/converthex", element: <ConvertHex /> },
     ],
   },
 ]);

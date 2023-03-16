@@ -63,8 +63,7 @@ function WhatHex() {
     <div>
       <h1>what the hex?!</h1>
       <p>
-        In this game you need to click the button that displays the correct
-        color hex code.
+        Click the correct hex code! Remember R (red) corresponds to the first 2 digits, G (green) represents the second pair of digits, and B (blue) are the last pair of digits.
       </p>
       <div className="colorBox" style={{ background: color }}></div>
       {answers.map((answer) => (
