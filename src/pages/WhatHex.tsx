@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import ProjectList from "../components/projectList";
+import ProjectList from "../components/ProjectList";
 const getRandomColor = () => {
   const digits = [
     "0",
