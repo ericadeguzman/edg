@@ -9,7 +9,7 @@ function MyNav() {
         <li>
           <Link to="/">
             <button
-              style={{ backgroundColor: "rgba(129, 101, 71, .1)" }}
+              style={{ backgroundColor: "rgba(129, 101, 71, .1)", color: '#000'}}
               type="button"
             >
               home
@@ -19,7 +19,7 @@ function MyNav() {
         <li>
           <Link to="/projects">
             <button
-              style={{ backgroundColor: "rgba(129, 101, 71, .2)" }}
+              style={{ backgroundColor: "rgba(129, 101, 71, .2)", color: '#000' }}
               type="button"
             >
               projects
@@ -29,7 +29,7 @@ function MyNav() {
         <li>
           <Link to="/photography">
             <button
-              style={{ backgroundColor: "rgba(129, 101, 71, .4)" }}
+              style={{ backgroundColor: "rgba(129, 101, 71, .4)", color: '#000' }}
               type="button"
             >
               photography
