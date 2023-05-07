@@ -40,7 +40,7 @@ function HomePage() {
             placeholder="your email"
           />
           <button style={{
-            marginTop: 5,}}>Submit</button>
+            marginTop: 5, color: '#000'}}>Submit</button>
         </div>
       </form>
     </div>

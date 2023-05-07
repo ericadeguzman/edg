@@ -7,16 +7,14 @@ function MyNav() {
     <>
       <ul className="navigation">
         <li>
-          
+          <Link to="/">
             <button
               style={{ backgroundColor: "rgba(129, 101, 71, .1)", color: '#000'}}
               type="button"
             >
-              <Link to="/">
               home
-              </Link>
             </button>
-          
+          </Link>
         </li>
         <li>
           <Link to="/projects">
