@@ -8,7 +8,7 @@ function HomePage() {
       <div className="homeIntro">
         <h1>hey.</h1>
         <p>
-          This is Erica, a web designer from Southern California. I design. I code. I take photos.
+          This is Erica, a web designer from southern California. I design. I code. I take photos.
         </p>
         ---
         <p>Some things I know:</p>
